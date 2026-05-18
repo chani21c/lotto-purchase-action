@@ -26,11 +26,11 @@ inputs:
     description: '커스텀 워크플로우 스크립트 경로 (예: ".github/workflows/lotto-workflow.js")'
     default: ''
   telegram-bot-token:
-    required: false
+    required: true
     description: '텔레그램 봇 토큰 (optional, 알림용)'
     default: ''
   telegram-chat-id:
-    required: false
+    required: true
     description: '텔레그램 채팅 ID (optional, 알림용)'
     default: ''
 runs:
